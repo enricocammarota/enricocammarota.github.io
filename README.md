@@ -1,45 +1,32 @@
-# jekyll-uno
+=============================
+Sleek Blog
+=============================
 
-Jekyll-Uno - a minimal, responsive theme for Jekyll based on the [Uno](https://github.com/daleanthony/Uno) theme for Ghost.
+[Live Website](http://gearoidoconnor.ie)
 
-> :warning:
-  This theme requires ruby and rubygems installed
 
-### Features
+A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
-* Clean layout
-* Resposive layout
-* Pagination
-* Syntax highlighting
-* Social links
-* Tags listing page
-* Categories listing page
-* Google Analytics integration
-* Disqus integration
 
----
+## System Preparation
 
-### Install and Test
+To use this project, you'll need the following things installed on your machine.
 
-1. Download or clone repo `git clone git@github.com:joshgerdes/jekyll-uno.git`
-2. Enter the folder: `cd jekyll-uno/`
-3. If you don't have bundler installed: `gem install bundler`
-3. Install Ruby gems: `bundle install`
-4. Start Jekyll server: `jekyll serve`
+1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
+2. [NodeJS](http://nodejs.org) - use the installer.
+3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
 
-Access via: [http://localhost:4000/jekyll-uno](http://localhost:4000/jekyll-uno)
+## Local Installation
 
----
+1. Clone this repo, or download it into a directory of your choice.
+2. Inside the directory, run `npm install`.
 
-### Demo and Download
+## Usage
 
-[Demo](http://joshgerdes.com/jekyll-uno/)
-[Download](https://github.com/joshgerdes/jekyll-uno/archive/master.zip)
+**development mode**
 
-![jekyll-uno - free Jekyll theme](/screenshot.png)
+This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
 
----
-
-### Copyright and license
-
-It is under [the MIT license](/LICENSE).
+```shell
+$ gulp
+```
