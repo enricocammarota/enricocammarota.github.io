@@ -497,7 +497,7 @@ th {
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #303e49;
+  color: #000080;
   font-weight: bold; }
 
 .gigantic {
@@ -543,7 +543,7 @@ hr {
   height: 0; }
 
 a {
-  color: #303e49;
+  color: #000080;
   text-decoration: none;
   outline: 0; }
 
@@ -581,7 +581,7 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 h2 {
-  color: #303e49;
+  color: #000080;
   text-align: center;
   padding: 50px 0 30px; }
 
@@ -619,7 +619,7 @@ h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_sm
     bottom: 20px;
     background: url(../img/silhouette125.svg) no-repeat center;
     background-size: 15px;
-    background-color: #303e49;
+    background-color: #000080;
     border-radius: 30px; } }
 
 @media only screen and (min-width: 220px) {
@@ -859,7 +859,7 @@ footer {
       display: block;
       font-size: 60px;
       line-height: 70px;
-      color: #303e49;
+      color: #000080;
       -webkit-transition: all 0.15s ease-out 0s;
       transition: all 0.15s ease-out 0s;
       margin-left: 0; } }
@@ -905,7 +905,7 @@ footer {
     display: block;
     font-size: 60px;
     line-height: 70px;
-    color: #303e49;
+    color: #000080;
     -webkit-transition: all 0.15s ease-out 0s;
     transition: all 0.15s ease-out 0s;
     margin-left: 0; }
@@ -914,13 +914,13 @@ footer {
   width: 250px;
   height: 0px;
   margin: 40px auto 40px;
-  border-top: 4px solid #303e49; }
+  border-top: 4px solid #000080; }
 
 .bar-blog {
   width: 250px;
   height: 0px;
   margin: 20px auto 20px;
-  border-top: 4px solid #303e49; }
+  border-top: 4px solid #000080; }
 
 .blog-end {
   padding-top: 100px; }
@@ -928,7 +928,7 @@ footer {
 .biglink {
   display: inline-block;
   margin-bottom: 70px;
-  color: #303e49;
+  color: #000080;
   font-size: 72px;
   font-weight: 300; }
 
@@ -1013,11 +1013,11 @@ footer {
     margin-left: -12px;
     margin-top: -12px; }
   .cd-timeline-img.cd-picture {
-    background: #303e49; }
+    background: #000080; }
   .cd-timeline-img.cd-movie {
-    background: #303e49; }
+    background: #000080; }
   .cd-timeline-img.cd-location {
-    background: #303e49; }
+    background: #000080; }
   @media only screen and (min-width: 1070px) {
     .cd-timeline-img {
       width: 60px;
@@ -1070,7 +1070,7 @@ footer {
   .cd-timeline-content h2 {
     padding-top: 0px;
     padding-bottom: 0px;
-    color: #303e49; }
+    color: #000080; }
   .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 13px;
     font-size: 0.8125rem; }
@@ -1205,7 +1205,7 @@ form {
   max-width: 450px;
   margin: 0 auto 50px; }
   form input, form textarea {
-    border: 2px solid #303e49;
+    border: 2px solid #000080;
     width: 100%;
     box-sizing: border-box;
     padding: 10px; }
@@ -1216,7 +1216,7 @@ form {
     text-align: right; }
   form [type="submit"] {
     margin-top: 13px;
-    background: #303e49;
+    background: #000080;
     color: white;
     font-size: 18px;
     text-transform: uppercase;
