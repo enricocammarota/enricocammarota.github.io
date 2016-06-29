@@ -684,7 +684,7 @@ header {
         /*padding-top: 50px;*/
         font-size: 72px;
         font-weight: 700; } }
-    header h1 span {
+    header h1 a span {
       display: inline-block;
       padding: 0 0.5em;
       border: rgba(255, 255, 255, 1) solid 10px; }
