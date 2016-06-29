@@ -661,7 +661,7 @@ header {
         header nav a {
           display: inline-block; } }
       header nav a:hover {
-        color: black; }
+        color: orange; }
   header h1 {
     text-align: center;
     color: rgba(255, 255, 255, 1);
@@ -722,7 +722,7 @@ footer {
       display: inline-block;
       margin-right: 30px; }
       footer .lockup a:hover {
-        color: black; }
+        color: orange; }
 
 @media only screen and (min-width: 220px) {
   .about-lock {
@@ -943,7 +943,8 @@ footer {
   background: #e5eaee; }
   
 .contact {
-  background: #e5eaee; }
+  background: #e5eaee; 
+  padding-bottom: 0.5em; }
 
 .cd-width {
   background: #e5eaee; }
