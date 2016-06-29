@@ -548,16 +548,16 @@ a {
   outline: 0; }
 
 a:hover, a:focus {
-  color: #587287; }
+  color: orange; }
 
 ::-moz-selection {
-  color: #587287; }
+  color: orange; }
 
 ::selection {
-  color: #587287; }
+  color: orange; }
 
 ::-moz-selection {
-  color: #587287; }
+  color: orange; }
 
 img::-moz-selection {
   background: transparent; }
@@ -1226,7 +1226,7 @@ form {
     text-transform: uppercase;
     width: 33%; }
     form [type="submit"]:hover {
-      background: #587287;
+      background: orange;
       border-color: #587287; }
   form textarea {
     height: 10em; }
