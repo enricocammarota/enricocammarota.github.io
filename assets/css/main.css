@@ -641,13 +641,13 @@ header {
   background-size: cover; }
   @media only screen and (min-width: 220px) {
     header {
-      height: 300px; } }
+      height: auto; } }
   @media only screen and (min-width: 650px) {
     header {
       height: auto; } }
   @media only screen and (min-width: 1070px) {
     header {
-      height: 450px; } }
+      height: auto; } }
   header nav {
     float: right;
     margin: 30px 30px 30px; }
