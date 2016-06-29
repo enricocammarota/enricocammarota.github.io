@@ -876,8 +876,8 @@ footer {
   font-weight: 30;
   text-align: center; }
 
-.section-contact {
-  background: #e5eaee;
+.section-social {
+  float:right;
   text-align: center; }
 
 .social-links {
