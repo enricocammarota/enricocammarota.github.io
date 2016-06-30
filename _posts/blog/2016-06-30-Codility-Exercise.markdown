@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Codility Exercise - Reverse String & Factorial + digits sum"
-date:   2015-10-26 16:51:11
+date:   2016-07-01 00:10:00
 categories: blog
 ---
 
