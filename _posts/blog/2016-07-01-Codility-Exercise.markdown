@@ -2,6 +2,7 @@
 layout: post
 title:  "Codility Exercise - Reverse String & Factorial + digits sum"
 date:   2016-07-01 00:10:00
+author:	"Enrico Cammarota"
 categories: blog
 ---
 
