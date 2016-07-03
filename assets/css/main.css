@@ -1389,7 +1389,8 @@ form {
     #h_small #nav_small a {
       display: inline-block;
       margin-left: 10px;
-      color: rgba(0, 0, 0, 0.5); }
+      /*color: rgba(0, 0, 0, 0.5); */
+	  color: white; }
       #h_small #nav_small a:hover {
         color: black; }
   #h_small #h1_small {
