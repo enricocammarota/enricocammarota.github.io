@@ -6,14 +6,12 @@ Personal Blog
 
 A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
-
 ## System Preparation
 
 To use this project, you'll need the following things installed on your machine.
 
 1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
 2. [NodeJS](http://nodejs.org) - use the installer.
-3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
 
 ## Local Installation
 
@@ -24,13 +22,3 @@ To use this project, you'll need the following things installed on your machine.
 5. Locate the project directory and run `$ bundle install` so that Jekyll and all the other dependencies will be installed from GitHub pages gem
 6. Build your local Jekyll site by running the command `$ bundle exec jekyll serve`
 7. Navigate to http://localhost:4000 to see the website
-
-## Usage
-
-**development mode**
-
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
-
-```shell
-$ gulp
-```
