@@ -6,7 +6,7 @@ comments: true
 {% include header_small.html %}
 
 
-<script type="text/javascript">
+<!--<script type="text/javascript">
 			// needs to be a string for jquery.cookie
 			var postId = '1';
 			$(function()
@@ -52,7 +52,7 @@ comments: true
 					$.removeCookie(postId);
 				});
 			});
-		</script>
+		</script>-->
 
 
 
@@ -64,17 +64,13 @@ comments: true
 </div>
 
 <div class="post-wrapper">
-
-
-
   <article class="post-content">
     <div class = "blurb-blog">
     {{ content }}
    </div>
   </article>
-
-
 </div>
+
 <div class="comment">
   {% if page.comments %}
   <div id="disqus_thread"></div>
