@@ -1,3 +1,3 @@
 name: Enrico Cammarota
-kramdown: redcarpet
+#kramdown: redcarpet
 exclude: ["node_modules", "gulpfile.js", "package.json"]
