@@ -4,6 +4,8 @@ title:  "Codility Exercise - Reverse String & Factorial + digits sum"
 date:   2016-07-01 00:10:00
 author:	"Enrico Cammarota"
 categories: blog
+lang: en
+ref: test
 ---
 
 This evening I had to face an interesting challenge on Codility. One of the companies I'm interviewing with proposed me to perform this test to assess my knowledge in Java.

@@ -2,6 +2,7 @@
 layout: post
 title:  "Second Article"
 date:   2016-07-01 00:15:00
+author:	"Enrico Cammarota"
 categories: blog
 ---
 
