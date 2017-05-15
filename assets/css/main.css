@@ -548,7 +548,7 @@ a {
   outline: 0; }
 
 a:hover, a:focus {
-  color: orange; }
+  color: darkorange; }
 
 ::-moz-selection {
   color: orange; }
@@ -722,7 +722,7 @@ footer {
       display: inline-block;
       margin-right: 30px; }
       footer .lockup a:hover {
-        color: orange; }
+        color: darkorange; }
 
 @media only screen and (min-width: 220px) {
   .about-lock {
@@ -1393,7 +1393,7 @@ form {
       /*color: rgba(0, 0, 0, 0.5); */
 	  color: white; }
       #h_small #nav_small a:hover {
-        color: black; }
+        color: darkorange; }
   #h_small #h1_small {
     display: inline-block;
     font-size: 72px;
