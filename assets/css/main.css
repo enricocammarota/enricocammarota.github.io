@@ -578,7 +578,10 @@ body {
   font-family: 'Open Sans' sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  width: 90%;
+  margin:0 auto;
+}
 
 h2 {
   color: #000080;
@@ -705,7 +708,9 @@ header {
 
 footer {
   /*background: url(../img/galway3.jpg) center center;*/
-  background-size: cover; }
+  background-size: cover;
+  background: #e5eaee;
+}
   footer .lockup {
     padding: 50px 30px; }
     footer .lockup::after {
