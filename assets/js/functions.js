@@ -343,3 +343,19 @@ $(window).scroll(function() {
 		$('a.back-to-top').fadeOut('slow');
 	}
 });
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > amountScrolled ) {
+		$('a.linkedin').fadeIn('slow');
+	} else {
+		$('a.linkedin').fadeOut('slow');
+	}
+});
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > amountScrolled ) {
+		$('a.github').fadeIn('slow');
+	} else {
+		$('a.github').fadeOut('slow');
+	}
+});
