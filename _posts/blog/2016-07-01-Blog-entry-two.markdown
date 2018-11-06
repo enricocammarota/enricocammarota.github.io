@@ -6,7 +6,7 @@ author:	"Enrico Cammarota"
 categories: blog
 ---
 
-<h5Introduction to Markdown</h5>
+<h5>Introduction to Markdown</h5>
 
 **Markdown** is a *text-to-HTML* conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write 
 plain text format, then convert it to structurally valid XHTML (or HTML).
@@ -30,3 +30,4 @@ For example, you can view the Markdown source for the article text on this page 
 It is possible to use the *.text suffix trick to view the Markdown source for the content of a *.md page.
 
 Markdown is free software, available under a BSD-style open source license. See the License page for more information.
+
