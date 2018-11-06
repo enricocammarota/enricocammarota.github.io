@@ -44,3 +44,11 @@ Markdown is free software, available under a BSD-style open source license. See 
 ###### H6
 </code>
 
+And the result will be:
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
