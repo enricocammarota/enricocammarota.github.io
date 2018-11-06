@@ -31,3 +31,14 @@ It is possible to use the *.text suffix trick to view the Markdown source for th
 
 Markdown is free software, available under a BSD-style open source license. See the License page for more information.
 
+<h3>Most common Markdown usages</h3>
+
+<h4>Headers</h4>
+
+# H1
+## H2
+### H3
+#### H4
+##### H5
+###### H6
+
