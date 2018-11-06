@@ -505,15 +505,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.09;
   letter-spacing: -2px; }
 
-.huge, h1 {
-  font-size: 608px;
-  line-height: 1.05;
-  letter-spacing: -1px; }
-
-.large, h2 {
-  font-size: 430px;
-  line-height: 1.14; }
-
 .small, small {
   font-size: 10px;
   line-height: 1.2; }
