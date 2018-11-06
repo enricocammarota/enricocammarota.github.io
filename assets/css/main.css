@@ -514,14 +514,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 430px;
   line-height: 1.14; }
 
-.bigger, h3 {
-  font-size: 260px;
-  line-height: 1.38; }
-
-.big, h4 {
-  font-size: 220px;
-  line-height: 1.38; }
-
 .small, small {
   font-size: 10px;
   line-height: 1.2; }
