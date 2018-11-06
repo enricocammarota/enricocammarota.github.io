@@ -566,11 +566,6 @@ body {
   margin:0 auto;
 }
 
-h2 {
-  color: #000080;
-  text-align: center;
-  padding: 50px 0 30px; }
-
 @media sceen and (max-width: 480px) {
   h2 {
     padding: 50px 0 50px; } }

@@ -35,10 +35,12 @@ Markdown is free software, available under a BSD-style open source license. See 
 
 <h4>Headers</h4>
 
+<code>
 # H1
 ## H2
 ### H3
 #### H4
 ##### H5
 ###### H6
+</code>
 
