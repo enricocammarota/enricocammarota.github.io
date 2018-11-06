@@ -33,16 +33,24 @@ Markdown is free software, available under a BSD-style open source license. See 
 
 <h3>Most common Markdown usages</h3>
 
+<h4>Code Block</h4>
+
+For me as a developer is fundamental to be able to define a code block using the markdown syntax. To do so the specification
+defines two tags that must be used in order to define a code block. The **pre** and **code** tags. An example of its usage is 
+the following:
+
+<pre><code>This is a code block</code></pre>
+
 <h4>Headers</h4>
 
-<code>
+<pre><code>
 # H1
 ## H2
 ### H3
 #### H4
 ##### H5
 ###### H6
-</code>
+</code></pre>
 
 And the result will be:
 
