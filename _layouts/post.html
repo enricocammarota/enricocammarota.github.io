@@ -10,9 +10,8 @@ comments: true
 </div>
 <div class="post-header">
   <p class="post-meta">
-    {{ page.date | date: "%B %-d, %Y" }}<br />
-    {% if page.author %}{{ page.author }}{% endif %}<br />
-    {% if page.meta %}{{ page.meta }}{% endif %}
+    {{ page.date | date: "%B %-d, %Y" }}, {% if page.author %}{{ page.author }}{% endif %}<br />
+
   </p>
 </div>
 
