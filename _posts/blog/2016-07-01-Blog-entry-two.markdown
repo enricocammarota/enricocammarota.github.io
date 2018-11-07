@@ -41,16 +41,22 @@ the following:
 
 <pre><code>This is a code block</code></pre>
 
+An alternative way to do so can be the usage of 3 back-tick in sequence like:
+
+``` 
+This is a code block too!
+```
+
 <h4>Headers</h4>
 
-<pre><code>
+```
 # H1
 ## H2
 ### H3
 #### H4
 ##### H5
 ###### H6
-</code></pre>
+```
 
 And the result will be:
 
@@ -61,4 +67,181 @@ And the result will be:
 ##### H5
 ###### H6
 
-... Under Construction.
+<h4>Text Formatting</h4>
+
+```
+Emphasis, aka italics, with *asterisks* or _underscores_.
+Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Combined emphasis with **asterisks and _underscores_**.
+Strikethrough uses two tildes. ~~Scratch this.~~
+```
+
+And the result will be:
+
+Emphasis, aka italics, with *asterisks* or _underscores_. <br>
+Strong emphasis, aka bold, with **asterisks** or __underscores__. <br>
+Combined emphasis with **asterisks and _underscores_**. <br>
+Strikethrough uses two tildes. ~~Scratch this.~~
+
+
+<h4>Lists</h4>
+
+Apart from using a simple numeric combination, it is possible to use also other alternatives like the following:
+
+```
+..* Unordered sub-list
+
+1. Generic number with sublist associated
+··1. Sublist element
+4. Other Generic number
+
+···To generate a paragraph properly indented within list items.
+
+··To have a line break between two paragraphs.
+
+Other ways to use unordered lists are:
+* Asterisks
+- Minuses
++ Pluses
+```
+
+The result of the previous code block will be:
+
+..* Unordered sub-list
+
+1. Generic number with sublist associated
+··1. Sublist element
+4. Other Generic number
+
+··· To generate a paragraph properly indented within list items.
+
+··To have a line break between two paragraphs.
+
+Other ways to use unordered lists are:
+* Asterisks
+- Minuses
++ Pluses
+
+
+<h4>Links</h4>
+
+There are several ways to create links, in the next code block you'll find my favourites that are also the most diffused:
+
+<pre><code>
+[Inline Link](https://enricocammarota.github.io/blog/2018/11/06/Blog-entry-two.html)
+[Inline Link with Title](https://enricocammarota.github.io/blog/2018/11/06/Blog-entry-two.html "Second Blog post")
+</code></pre>
+
+And the result is:
+
+[Inline Link](https://enricocammarota.github.io/blog/2018/11/06/Blog-entry-two.html) <br>
+[Inline Link with Title](https://enricocammarota.github.io/blog/2018/11/06/Blog-entry-two.html "Second Blog post")
+
+<h4>Images</h4>
+
+There are two ways of representing an image:
+
+```
+Inline-style: 
+![alt text](https://github.com/enricocammarota/enricocammarota.github.io/blob/master/assets/img/markdown.png "This is the Markdown logo 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/enricocammarota/enricocammarota.github.io/blob/master/assets/img/markdown.png "This is the Markdown logo 2"
+```
+
+<h4>Realizing Tables</h4>
+
+Tables aren't part of the core Markdown spec, but they are part of GFM and Markdown Here supports them. They are an easy 
+way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+
+```
+Colons can be used to align columns.
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+```
+
+That generates a result like:
+
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+There must be at least 3 dashes separating each header cell.
+The outer pipes (|) are optional, and you don't need to make the 
+raw Markdown line up prettily. You can also use inline Markdown.
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+<h4>Blockquotes</h4>
+
+Particularely handy to highlight text blocks and to simulate email responses and quotes. The syntax is described in the next
+code block:
+
+```
+> Blockquotes are very handy to highlight text blocks and simulate email responses.
+> This line is part of the same quote.
+
+```
+
+And the result is:
+
+> Blockquotes are very handy in email to emulate reply text.
+> This line is part of the same quote.
+
+A particularity of the Blockquote is that in case of very long lines, the text will keep being wrapped as a blockquote when rendered:
+
+```
+> Hello my name is Enrico Cammarota, I'm 29 years old. I'm an italian software developer passionate in technologies, sport and music. 
+Feel free to contact me at any time at **cammarota.en@gmail.com**! 
+```
+
+> Hello my name is Enrico Cammarota, I'm 29 years old. I'm an italian software developer passionate in technologies, sport and music. 
+Feel free to contact me at any time at **cammarota.en@gmail.com**! 
+
+<h4>Inline HTML</h4>
+
+It is however possible to include inline HTML inour Markdown in order to create particular structures:
+
+```
+<ul>
+    <li>A simple list</li>
+    <li>Commonly used</li>
+</ul>
+```
+
+That gets rendered as:
+
+<ul>
+    <li>A simple list</li>
+    <li>Commonly used</li>
+</ul>
+
+<br>
+
+**That's all folks!**
+
+Credits:
+
+[Adam P. Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) <br>
+[Daring Fireball Markdown Syntax Documentation](https://daringfireball.net/projects/markdown/syntax)
