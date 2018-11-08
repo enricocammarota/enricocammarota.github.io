@@ -89,33 +89,24 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 Apart from using a simple numeric combination, it is possible to use also other alternatives like the following:
 
 ```
-..* Unordered sub-list
 
 1. Generic number with sublist associated
 ··1. Sublist element
 4. Other Generic number
-
-···To generate a paragraph properly indented within list items.
-
-··To have a line break between two paragraphs.
 
 Other ways to use unordered lists are:
 * Asterisks
 - Minuses
 + Pluses
+
 ```
 
 The result of the previous code block will be:
 
-..* Unordered sub-list
-
-1. Generic number with sublist associated
+1. Generic number with sublist associated <br>
 ··1. Sublist element
 4. Other Generic number
 
-··· To generate a paragraph properly indented within list items.
-
-··To have a line break between two paragraphs.
 
 Other ways to use unordered lists are:
 * Asterisks
@@ -134,8 +125,8 @@ There are several ways to create links, in the next code block you'll find my fa
 
 And the result is:
 
-[Inline Link](https://enricocammarota.github.io/blog/2018/11/06/Blog-entry-two.html) <br>
-[Inline Link with Title](https://enricocammarota.github.io/blog/2018/11/06/Blog-entry-two.html "Second Blog post")
+[Inline Link](https://enricocammarota.github.io/blog/2018/11/06/A-quick-Markdown-Cheatsheet.html) <br>
+[Inline Link with Title](https://enricocammarota.github.io/blog/2018/11/06/A-quick-Markdown-Cheatsheet.html "Second Blog post")
 
 <h4>Images</h4>
 
@@ -184,9 +175,11 @@ That generates a result like:
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+<br>
 There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the 
 raw Markdown line up prettily. You can also use inline Markdown.
+<br>
 
 Markdown | Less | Pretty
 --- | --- | ---
