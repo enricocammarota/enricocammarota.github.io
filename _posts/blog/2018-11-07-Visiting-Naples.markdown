@@ -8,6 +8,8 @@ categories: blog
 
 <h3>Visiting Naples</h3>
 
+![Naples Landscape](https://odis.homeaway.com/odis/destination/38b303ed-28a3-4f26-9f13-17d5f663ec3b.hw1.jpg "Naples Landscape")
+
 During my years, living in London, I received many times requests by my fellow colleagues and friends about: "What to do in Naples"? <br><br>
 Apparently Britons (and not only them) are very passionate about South Italy and even if sometime they fancy to spend some
 times nearby the Lago di Como or Venice, once they try the South, they never go back :) <br><br>
