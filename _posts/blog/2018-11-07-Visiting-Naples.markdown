@@ -163,3 +163,6 @@ be compared to the London one, it's still possible to have good night out with y
 In case of any questions please, don't hesitate in emailing me at **cammarota.en@gmail.com**. 
 
 Enrico.
+
+_Please note all the content of this guide is based on personal preferences and hasn't been influenced by any of the suggested 
+stores/shops/restaurants._
