@@ -141,6 +141,7 @@ Reference-style:
 
 [logo]: ../../assets/img/markdown.png "This is the Markdown logo 2"
 ```
+<br>
 
 Inline-style: 
 ![Markdown Logo 1](../../assets/img/markdown.png "This is the Markdown logo 1")
