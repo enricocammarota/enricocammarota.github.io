@@ -134,13 +134,22 @@ There are two ways of representing an image:
 
 ```
 Inline-style: 
-![alt text](https://github.com/enricocammarota/enricocammarota.github.io/blob/master/assets/img/markdown.png "This is the Markdown logo 1")
+![alt text](../../assets/img/markdown.png "This is the Markdown logo 1")
 
 Reference-style: 
 ![alt text][logo]
 
-[logo]: https://github.com/enricocammarota/enricocammarota.github.io/blob/master/assets/img/markdown.png "This is the Markdown logo 2"
+[logo]: ../../assets/img/markdown.png "This is the Markdown logo 2"
 ```
+
+Inline-style: 
+![Markdown Logo 1](../../assets/img/markdown.png "This is the Markdown logo 1")
+
+Reference-style: 
+![Markdown Logo 2][logo]
+
+[logo]: ../../assets/img/markdown.png "This is the Markdown logo 2"
+<br>
 
 <h4>Realizing Tables</h4>
 
@@ -232,7 +241,7 @@ That gets rendered as:
 
 <br>
 
-**That's all folks!**
+**That's all folks, thanks for reading this post!**
 
 Credits:
 
