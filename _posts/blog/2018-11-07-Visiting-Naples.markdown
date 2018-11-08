@@ -85,7 +85,6 @@ holidays in Napoli:
 [Bagnoli](https://en.wikipedia.org/wiki/Bagnoli) <br>
 [Submarine natural park of Baia](http://www.parcoarcheologicosommersodibaia.it/parco.php?id_lingua=en) <br>
 
-<br>
 
 <h4>What to eat and Where:</h4>
 
@@ -109,7 +108,7 @@ Please note that in this list the repeated items are in order from Best to Worse
 | Taralli	    | Salted and spicy "biscuits" with almonds and pepper ideal with BEER on the seaside | Leopoldo - Via Foria, 212, 80139 Napoli |
 | Caffè	        | You know what I'm talking about	         | Cimmino - Via Gaetano Filangieri, 13, 80121 Napoli, Italia |
 | Caffè	        | You know what I'm talking about	         | Chalet Ciro - Via Caracciolo, 80122 Napoli, Italia |
-| Caffè	You know what I'm talking about	Gambrinus - Via Chiaia, 1/2, 80132 Napoli, Italia
+| Caffè	        | You know what I'm talking about	         | Gambrinus - Via Chiaia, 1/2, 80132 Napoli, Italia |
 | Danubio	    | http://www.dissapore.com/grande-notizia/danubio-ricetta-tradizionale/	| Leopoldo - Via Foria, 212, 80139 Napoli |
 | Casatiello	| https://it.wikipedia.org/wiki/Casatiello	 | Leopoldo - Via Foria, 212, 80139 Napoli |
 | Chiacchiere	| https://en.wikipedia.org/wiki/Angel_wings	 | Any "Pasticceria" will have some if you're in the right period of the year |
