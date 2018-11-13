@@ -573,7 +573,7 @@ body {
 h2, header nav a, header .kicker, footer .lockup a, #h_small #nav_small a, #h_small .kicker {
   font-size: 14px;
   font-weight: 700;
-  text-transform: uppercase; }
+}
 
 @media only screen and (min-width: 1070px) {
   .logo {
@@ -725,7 +725,6 @@ footer {
       display: table; }
     footer .lockup .content-wrap .copyright {
       margin: 0;
-      text-transform: uppercase;
       font-size: 12px;
       color: rgba(0, 0, 0, 0.4); }
     footer .lockup a {
