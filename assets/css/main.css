@@ -1356,7 +1356,7 @@ form {
 @media only screen and (min-width: 650px) {
   .post-header {
     max-width: 650px;
-    margin: 0 auto; }
+    margin: 1em; }
   .title:hover {
     max-width: 650px; }
   .post-wrapper {
@@ -1375,7 +1375,7 @@ form {
 @media only screen and (min-width: 1070px) {
   .post-header {
     max-width: 750px;
-    margin: 0 auto; }
+    margin: 1em; }
   .title:hover {
     max-width: 750px; }
   .post-wrapper {
