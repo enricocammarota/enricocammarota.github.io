@@ -7,7 +7,7 @@ layout: default
 <h2 id="Blog"> Blog Posts</h2>
 <hr class="bar-blog"> </hr>
 
-  {% assign posts=site.posts | where:"lang", page.lang %}
+  {% assign posts=site.posts%}
   {% for post in site.categories['blog'] %}
     <div class="post-header"><a href="{{post.url}}"><h1 class="post-title">{{ post.title }}</h1></a></div>
     <div class="post-header">

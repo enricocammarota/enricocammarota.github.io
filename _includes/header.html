@@ -14,17 +14,17 @@
 	</h1>
 	<p class="kicker">Software Engineer // Java Developer </p>
 	<ul>
-		{% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+		{% assign posts=site.posts | where:"ref", page.ref %}
 		{% for post in posts %}
 		<li>
-			<a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+			<a href="{{ post.url }}" />
 		</li>
 		{% endfor %}
 
-		{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+		{% assign pages=site.pages | where:"ref", page.ref %}
 		{% for page in pages %}
 		<li>
-			<a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+			<a href="{{ page.url }}" />
 		</li>
 		{% endfor %}
 	</ul>
