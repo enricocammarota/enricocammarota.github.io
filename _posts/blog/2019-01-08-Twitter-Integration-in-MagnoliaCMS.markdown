@@ -38,11 +38,9 @@ according to our customer needs.
 
 The final FTL is then as follows:
 
-<pre><code>
 
-    <script src="https://enricocammarota.github.io/assets/js/08-01-2019.js"></script>
+<script src="https://enricocammarota.github.io/assets/js/08-01-2019.js"></script>
 
-</code></pre>
 
 Based on this FTL, the resulting model class will be:
 
