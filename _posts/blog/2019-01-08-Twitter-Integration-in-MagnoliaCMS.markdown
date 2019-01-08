@@ -40,7 +40,7 @@ The final FTL is then as follows:
 
 <pre><code>
 
-    <script src="/assets/js/08-01-2019.js"></script>
+    <script src="https://enricocammarota.github.io/assets/js/08-01-2019.js"></script>
 
 </code></pre>
 
