@@ -40,27 +40,24 @@ The final FTL is then as follows:
 
 <pre><code>
 
-[#assign maxTweetsAllowed = model.maxTweetsAllowed /]
-[#assign dataScreenName = model.dataScreenName /]
-[#assign accountNameURL = model.accountNameURL /]
-
-<a class="twitter-timeline" href="https://twitter.com/${accountNameURL}" data-widget-id="697464007863705601" 
-    data-screen-name="${dataScreenName}" data-chrome="nofooter" data-tweet-limit="${maxTweetsAllowed}"></a>
-	
- <script>
-
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-	if(!d.getElementById(id)){
-		js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs); 
-(document,"script","twitter-wjs");
-
-	</script>
+    [#assign maxTweetsAllowed = model.maxTweetsAllowed /]
+    [#assign dataScreenName = model.dataScreenName /]
+    [#assign accountNameURL = model.accountNameURL /]
+    
+    <a class="twitter-timeline" href="https://twitter.com/${accountNameURL}" data-widget-id="697464007863705601" 
+        data-screen-name="${dataScreenName}" data-chrome="nofooter" data-tweet-limit="${maxTweetsAllowed}"></a>
+        
+     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+        if(!d.getElementById(id)){
+            js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs); 
+    (document,"script","twitter-wjs");</script>
 
 </code></pre>
 
 Based on this FTL, the resulting model class will be:
 
 <code><pre>
+    
     public class TwitterComponentModel<RD extends TemplateDefinition> extends GenerciListModel<TemplateDefinition> {
         private String accountNameURL;
         private String dataScreenName;
@@ -89,9 +86,10 @@ Based on this FTL, the resulting model class will be:
         
         public String getMaxTweetsAllowed() {
             return maxTweetsAllowed;
-        }
-        
-}</code></pre>
+        }        
+    }
+
+</code></pre>
 
 The **PropertyUtil** class will be used to take the actual values that the user will add in the Magnolia edit dialog of 
 that component. Note that it’s also possible to add field validators but that is out of the scope of this guide. For 
