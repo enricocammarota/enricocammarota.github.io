@@ -59,27 +59,38 @@ The final FTL is then as follows:
 </code></pre>
 
 Based on this FTL, the resulting model class will be:
+
 <code><pre>
     public class TwitterComponentModel<RD extends TemplateDefinition> extends GenerciListModel<TemplateDefinition> {
         private String accountNameURL;
         private String dataScreenName;
         private String maxTweetsAllowed;
+        
         public TwitterComponentModel(Node content, TemplateDefinition definition, RenderingModel<?> parent, 
                                         STKTemplatingFunctions stkFunctions, TemplatingFunctions templatingFunctions) {   
-        super(content, definition, parent, stkFunctions, templatingFunctions);	
-        accountNameURL = PropertyUtil.getString(content, "twitterAccountName");
-        dataScreenName = accountNameURL;
-        maxTweetsAllowed = PropertyUtil.getString(content, "maxPostsDisplayed");
+        
+            super(content, definition, parent, stkFunctions, templatingFunctions);	
+            
+            accountNameURL = PropertyUtil.getString(content, "twitterAccountName");
+            
+            dataScreenName = accountNameURL;
+            
+            maxTweetsAllowed = PropertyUtil.getString(content, "maxPostsDisplayed");
+            
         }
+        
         public String getAccountNameURL() {
             return accountNameURL;
         }
+        
         public String getDataScreenName() {
             return dataScreenName;
         }
+        
         public String getMaxTweetsAllowed() {
             return maxTweetsAllowed;
         }
+        
 }</code></pre>
 
 The **PropertyUtil** class will be used to take the actual values that the user will add in the Magnolia edit dialog of 
@@ -115,6 +126,11 @@ And finally the Twitter component will be displayed:
 Image 7
 
 **Congratulations, you integrated a Twitter timeline into your website!**
+
+If you'd like to learn more please consider having a look at:
+
+[Twitter API - OAuth](https://dev.twitter.com/oauth)<br>
+[Twitter API Rest - Public](https://dev.twitter.com/rest/public) 
 
 **That's all folks, thanks for reading this post!**<br>
 In case of any questions please, don't hesitate in emailing me at **cammarota.en@gmail.com**. 
